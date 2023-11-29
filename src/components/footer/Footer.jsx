@@ -35,9 +35,9 @@ const Footer = () => {
                         <div key={index}>
                             <Link className='footerHead'>{item.heading}</Link>
 
-                            <Link to='#'>{item.listItem1}</Link>
+                            <Link to='@'>{item.listItem1}</Link>
 
-                            <Link t0='#'>{item.listItem2}</Link>
+                            <Link t0='@'>{item.listItem2}</Link>
                         </div>
                     ))}
                 </div>
