@@ -1,21 +1,22 @@
 import React from 'react';
-import './Home.css'
-import img1 from '../images/Remote1.png'
-import img2 from '../images/Remote2.png'
+import './Home.css';
+import img1 from '../images/Remote1.png';
+import img2 from '../images/Remote2.png';
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <div className='homeDesign'>
         <div>
           <div className='imageDesign'>
-            <img src={img1} alt="Logo Here" />
+            <img src={img1} alt="Logo" />
           </div>
         </div>
         <div className='text'>
           <span> Do you want my Resume?</span>
           <button> Download Now!</button>
-        </div> </div>
+        </div>
+      </div>
       <div className='homeDesign_bottom'>
         <div>
           <div className='text_bottom'>
@@ -23,7 +24,7 @@ const Home = () => {
           </div>
         </div>
         <div className='imageDesign'>
-          <img src={img2} alt='second image' />
+          <img src={img2} alt='Second Image' />
         </div>
       </div>
     </div>

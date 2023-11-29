@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // import Data from './footer/Data'
 
 const Footer = () => {
-    const [footerList, setFooterList] = useState([
+    const [footerList] = useState([
         {
             heading: "Resources",
             listItem1: "Home",

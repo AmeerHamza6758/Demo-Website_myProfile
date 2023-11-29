@@ -17,7 +17,7 @@ function Github() {
         Github Followers: {data.followers}
         </section>
         <section>
-        <img style={{width:'350px', height:'350px'}} src={data.avatar_url} alt="Github Picture" />
+        <img style={{width:'350px', height:'350px'}} src={data.avatar_url} alt="" />
       </section>
     </div>
   );
