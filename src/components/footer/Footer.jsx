@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Footer.css'
 import image from '../images/HamzaLogo.png';
 import { Link } from 'react-router-dom';
 // import Data from './footer/Data'
 
 const Footer = () => {
-    const [footerList] = useState([
+    const footerList = [
         {
             heading: "Resources",
             listItem1: "Home",
@@ -21,7 +21,7 @@ const Footer = () => {
             listItem1: "Privacy Policy",
             listItem2: "Terms & Conditions"
         }
-    ]);
+    ];
 
     return (
         <div className='footer' >
